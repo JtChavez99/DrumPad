@@ -28,15 +28,14 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="5dp"
-
-
+            android:onClick="playSound2"
             android:background="@drawable/blue_button"/>
 
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="5dp"
-
+            android:onClick="playSound3"
             android:background="@drawable/blue_button"/>
     </LinearLayout>
 
@@ -52,20 +51,21 @@ android:layout_height="wrap_content"
 <Button
     android:layout_width="100dp"
     android:layout_height="100dp"
+    android:onClick="playSound4"
     android:background="@drawable/green_button"/>
 
 <Button
     android:layout_width="100dp"
     android:layout_height="100dp"
     android:layout_marginLeft="5dp"
-
+    android:onClick="playSound5"
     android:background="@drawable/green_button"/>
 
 <Button
     android:layout_width="100dp"
     android:layout_height="100dp"
     android:layout_marginLeft="5dp"
-
+    android:onClick="playSound6"
     android:background="@drawable/green_button"/>
 </LinearLayout>
 
@@ -79,18 +79,21 @@ android:layout_height="wrap_content"
 <Button
     android:layout_width="100dp"
     android:layout_height="100dp"
+    android:onClick="playSound7"
     android:background="@drawable/red_button"/>
 
 <Button
     android:layout_width="100dp"
     android:layout_height="100dp"
     android:layout_marginLeft="5dp"
+    android:onClick="playSound8"
     android:background="@drawable/red_button"/>
 
 <Button
     android:layout_width="100dp"
     android:layout_height="100dp"
     android:layout_marginLeft="5dp"
+    android:onClick="playSound9"
     android:background="@drawable/red_button"/>
 </LinearLayout>
 
